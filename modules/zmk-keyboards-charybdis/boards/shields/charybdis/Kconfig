@@ -1,0 +1,15 @@
+menu "Charybdis shield configuration"
+
+config PMW3610_REST1_DOWNSHIFT_TIME_MS
+    int
+    default 3000
+    help
+      PMW3610 REST1 downshift time in milliseconds.
+
+config PMW3610_REST2_DOWNSHIFT_TIME_MS
+    int
+    default 30000
+    help
+      PMW3610 REST2 downshift time in milliseconds.
+
+endmenu
